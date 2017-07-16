@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsDI.App.Api", "StarWarsDI.Api\StarWarsDI.App.Api.csproj", "{D1E58730-3463-4AC6-9950-46BD3DA07A3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{931937B0-33FB-4FE4-9C1C-84B5E9EADFDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsDI.App.Console", "StarWarsDI.App.Console\StarWarsDI.App.Console.csproj", "{0DC2B1E4-6AD0-4B19-B919-404E4EF6DC4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{6013FE6F-B26B-4C92-AB97-F6FDB3D24477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsDI.Business.Interfaces", "StarWarsDI.Business.Interfaces\StarWarsDI.Business.Interfaces.csproj", "{2DA1D7FB-F8DD-41C6-ABC5-4EFE04ED5201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsDI.Entities", "StarWarsDI.Entities\StarWarsDI.Entities.csproj", "{A68AEDCE-6822-4AC9-8FA8-77EF6776F19A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsDI.Entities.Interfaces", "StarWarsDI.Entities.Interfaces\StarWarsDI.Entities.Interfaces.csproj", "{A1EA7679-C0AC-43FA-B236-D459FDCFAEEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsDI.Core.Business", "StarWarsDI.Core.Business\StarWarsDI.Core.Business.csproj", "{76448E64-71A0-474F-93E2-862492671695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1E58730-3463-4AC6-9950-46BD3DA07A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E58730-3463-4AC6-9950-46BD3DA07A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E58730-3463-4AC6-9950-46BD3DA07A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E58730-3463-4AC6-9950-46BD3DA07A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC2B1E4-6AD0-4B19-B919-404E4EF6DC4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC2B1E4-6AD0-4B19-B919-404E4EF6DC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC2B1E4-6AD0-4B19-B919-404E4EF6DC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC2B1E4-6AD0-4B19-B919-404E4EF6DC4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA1D7FB-F8DD-41C6-ABC5-4EFE04ED5201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA1D7FB-F8DD-41C6-ABC5-4EFE04ED5201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA1D7FB-F8DD-41C6-ABC5-4EFE04ED5201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA1D7FB-F8DD-41C6-ABC5-4EFE04ED5201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68AEDCE-6822-4AC9-8FA8-77EF6776F19A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68AEDCE-6822-4AC9-8FA8-77EF6776F19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68AEDCE-6822-4AC9-8FA8-77EF6776F19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68AEDCE-6822-4AC9-8FA8-77EF6776F19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1EA7679-C0AC-43FA-B236-D459FDCFAEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EA7679-C0AC-43FA-B236-D459FDCFAEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EA7679-C0AC-43FA-B236-D459FDCFAEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EA7679-C0AC-43FA-B236-D459FDCFAEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76448E64-71A0-474F-93E2-862492671695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76448E64-71A0-474F-93E2-862492671695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76448E64-71A0-474F-93E2-862492671695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76448E64-71A0-474F-93E2-862492671695}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DA1D7FB-F8DD-41C6-ABC5-4EFE04ED5201} = {6013FE6F-B26B-4C92-AB97-F6FDB3D24477}
+		{A68AEDCE-6822-4AC9-8FA8-77EF6776F19A} = {931937B0-33FB-4FE4-9C1C-84B5E9EADFDD}
+		{A1EA7679-C0AC-43FA-B236-D459FDCFAEEB} = {6013FE6F-B26B-4C92-AB97-F6FDB3D24477}
+		{76448E64-71A0-474F-93E2-862492671695} = {931937B0-33FB-4FE4-9C1C-84B5E9EADFDD}
+	EndGlobalSection
+EndGlobal
