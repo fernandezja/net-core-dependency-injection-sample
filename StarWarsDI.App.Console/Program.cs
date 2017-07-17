@@ -14,6 +14,8 @@ namespace StarWarsDI.App.Console
             var serviceProvider = new ServiceCollection()
                 .AddLogging()
                 .AddTransient<Core.Data.Interfaces.IBeerDrinkRepository, Core.Data.BeerDrinkRepository>()
+                .AddTransient<Core.Data.Interfaces.ICokeDrinkRepository, Core.Data.CokeDrinkRepository>()
+                .AddTransient<Core.Data.Interfaces.IFernetDrinkRepository, Core.Data.FernetDrinkRepository>()
                 .AddTransient<Entities.Interfaces.IVaso, Entities.Vaso>()
                 .AddTransient<Business.Interfaces.IPartyBusiness, Core.Business.PartyBusiness>()
                 .BuildServiceProvider();

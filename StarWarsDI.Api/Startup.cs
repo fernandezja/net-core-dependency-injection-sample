@@ -31,6 +31,8 @@ namespace StarWarsDI.Api
             //Configuracion DI
             services.AddLogging();
             services.AddTransient<Core.Data.Interfaces.IBeerDrinkRepository, Core.Data.BeerDrinkRepository>();
+            services.AddTransient<Core.Data.Interfaces.ICokeDrinkRepository, Core.Data.CokeDrinkRepository>();
+            services.AddTransient<Core.Data.Interfaces.IFernetDrinkRepository, Core.Data.FernetDrinkRepository>();
             services.AddTransient<Entities.Interfaces.IVaso, Entities.Vaso>();
             services.AddTransient<Business.Interfaces.IPartyBusiness, Core.Business.PartyBusiness>();
           

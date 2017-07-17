@@ -9,16 +9,22 @@ namespace StarWarsDI.Core.Business
     public class PartyBusiness : IPartyBusiness
     {
         public IBeerDrinkRepository BeerDrinkRepository { get; set; }
+        public ICokeDrinkRepository CokeDrinkRepository { get; set; }
+        public IFernetDrinkRepository FernetDrinkRepository { get; set; }
 
-        public PartyBusiness(IBeerDrinkRepository beerDrinkRepository)
+        public PartyBusiness(IBeerDrinkRepository beerDrinkRepository,
+                            ICokeDrinkRepository cokeDrinkRepository,
+                            IFernetDrinkRepository fernetDrinkRepository)
         {
             BeerDrinkRepository = beerDrinkRepository;
+            CokeDrinkRepository = cokeDrinkRepository;
+            FernetDrinkRepository = fernetDrinkRepository;
         }
 
         #region IPartyBusiness
         public async Task<bool> ServirAsync(IVaso vaso)
         {
-            var drink = await BeerDrinkRepository.GetAsync();
+            var drink = await FernetDrinkRepository.GetAsync();
 
             vaso.Contenido = ($"Drink {drink}");
 
