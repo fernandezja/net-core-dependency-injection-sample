@@ -13,6 +13,7 @@ namespace StarWarsDI.App.Console
             //Configuracion DI
             var serviceProvider = new ServiceCollection()
                 .AddLogging()
+                .AddTransient<Core.Data.Interfaces.IBeerDrinkRepository, Core.Data.BeerDrinkRepository>()
                 .AddTransient<Entities.Interfaces.IVaso, Entities.Vaso>()
                 .AddTransient<Business.Interfaces.IPartyBusiness, Core.Business.PartyBusiness>()
                 .BuildServiceProvider();

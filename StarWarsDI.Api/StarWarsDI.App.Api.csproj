@@ -22,6 +22,8 @@
   <ItemGroup>
     <ProjectReference Include="..\StarWarsDI.Business.Interfaces\StarWarsDI.Business.Interfaces.csproj" />
     <ProjectReference Include="..\StarWarsDI.Core.Business\StarWarsDI.Core.Business.csproj" />
+    <ProjectReference Include="..\StarWarsDI.Core.Data.Interfaces\StarWarsDI.Core.Data.Interfaces.csproj" />
+    <ProjectReference Include="..\StarWarsDI.Core.Data\StarWarsDI.Core.Data.csproj" />
     <ProjectReference Include="..\StarWarsDI.Entities.Interfaces\StarWarsDI.Entities.Interfaces.csproj" />
     <ProjectReference Include="..\StarWarsDI.Entities\StarWarsDI.Entities.csproj" />
   </ItemGroup>

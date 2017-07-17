@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StarWarsDI.Business.Interfaces\StarWarsDI.Business.Interfaces.csproj" />
     <ProjectReference Include="..\StarWarsDI.Core.Data.Interfaces\StarWarsDI.Core.Data.Interfaces.csproj" />
   </ItemGroup>
 
