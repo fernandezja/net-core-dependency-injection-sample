@@ -24,18 +24,16 @@ namespace StarWarsDI.App.Console
                 .AddTransient<Business.Interfaces.IPartyBusiness, Core.Business.PartyBusiness>()
                 .BuildServiceProvider();
 
-         
+
 
             //IoC
-            var logger = serviceProvider
-                            .GetService<ILoggerFactory>()
-                            .CreateLogger<Program>();
-
+            var logger = serviceProvider.GetRequiredService<ILogger<Program>>();
+            
             var vaso3 = serviceProvider.GetRequiredService<IVasoBotellaPlastico>();
             var seMejoro = vaso3.MejorarBordesParaNoCortarse;
 
             var vaso4 = serviceProvider.GetRequiredService<IVaso>();
-            vaso4.Contenido = "Demo UCP";
+            vaso4.Contenido = "Demo water";
 
             var vaso5 = serviceProvider.GetRequiredService<IVaso>();
             var demo = vaso5.Contenido;
