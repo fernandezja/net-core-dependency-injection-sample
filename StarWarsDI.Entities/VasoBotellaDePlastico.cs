@@ -3,7 +3,8 @@ using System;
 
 namespace StarWarsDI.Entities
 {
-    public class VasoBotellaDePlastico: IVasoBotellaPlastico, IVaso
+    public class VasoBotellaDePlastico: IVasoBotellaPlastico, 
+                                        IVaso
     {
         public string Contenido { get; set; }
 
