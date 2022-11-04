@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31321.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32519.111
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsDI.App.Api", "StarWarsDI.Api\StarWarsDI.App.Api.csproj", "{D1E58730-3463-4AC6-9950-46BD3DA07A3C}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsDI.Core.Data", "StarWarsDI.Core.Data\StarWarsDI.Core.Data.csproj", "{65C8AB0E-7DFC-409F-80A4-EF216552AC17}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsDI.Core.Data.Interfaces", "StarWarsDI.Core.Data.Interfaces\StarWarsDI.Core.Data.Interfaces.csproj", "{1CA7BC8B-9DE3-4D2F-9C05-0B44E7824306}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{2E8D4283-1983-4379-84F5-DBEED5A16459}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

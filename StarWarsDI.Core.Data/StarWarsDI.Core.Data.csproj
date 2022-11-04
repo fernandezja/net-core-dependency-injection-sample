@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StarWarsDI.Core.Data.Interfaces\StarWarsDI.Core.Data.Interfaces.csproj" />
+    <ProjectReference Include="..\StarWarsDI.Entities\StarWarsDI.Entities.csproj" />
   </ItemGroup>
 
 </Project>
