@@ -23,8 +23,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsDI.Core.Data", "Sta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsDI.Core.Data.Interfaces", "StarWarsDI.Core.Data.Interfaces\StarWarsDI.Core.Data.Interfaces.csproj", "{1CA7BC8B-9DE3-4D2F-9C05-0B44E7824306}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{2E8D4283-1983-4379-84F5-DBEED5A16459}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
